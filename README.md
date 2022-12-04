@@ -1,8 +1,8 @@
-Repo for the advent coding challenge found https://adventofcode.com/
+# Repo for the advent coding challenge found https://adventofcode.com/
 
-each day of December there is a quick coding challenge. I will try to do most days in a range of R, Python and maybe Cpp. 
+## Each day of December there is a quick coding challenge. I will try to do most days in a range of R, Python and maybe Cpp. 
 
---- Day 2: Rock Paper Scissors ---
+### --- Day 2: Rock Paper Scissors ---
 The Elves begin to set up camp on the beach. To decide whose tent gets to be closest to the snack storage, a giant Rock Paper Scissors tournament is already in progress.
 
 Rock Paper Scissors is a game between two players. Each game contains many rounds; in each round, the players each simultaneously choose one of Rock, Paper, or Scissors using a hand shape. Then, a winner for that round is selected: Rock defeats Scissors, Scissors defeats Paper, and Paper defeats Rock. If both players choose the same shape, the round instead ends in a draw.
@@ -31,7 +31,7 @@ What would your total score be if everything goes exactly according to your stra
 
 Your puzzle answer was 11906.
 
---- Part Two ---
+#### --- Part Two ---
 The Elf finishes helping with the tent and sneaks back over to you. "Anyway, the second column says how the round needs to end: X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win. Good luck!"
 
 The total score is still calculated in the same way, but now you need to figure out what shape to choose so the round ends as indicated. The example above now goes like this:
@@ -47,7 +47,7 @@ Your puzzle answer was 11186.
 
 
 
---- Day 3: Rucksack Reorganization ---
+### --- Day 3: Rucksack Reorganization ---
 One Elf has the important job of loading all of the rucksacks with supplies for the jungle journey. Unfortunately, that Elf didn't quite follow the packing instructions, and so a few items now need to be rearranged.
 
 Each rucksack has two large compartments. All items of a given type are meant to go into exactly one of the two compartments. The Elf that did the packing failed to follow this rule for exactly one item type per rucksack.
@@ -80,7 +80,7 @@ Find the item type that appears in both compartments of each rucksack. What is t
 
 Your puzzle answer was 7817.
 
---- Part Two ---
+#### --- Part Two ---
 As you finish identifying the misplaced items, the Elves come to you with another issue.
 
 For safety, the Elves are divided into groups of three. Every Elf carries a badge that identifies their group. For efficiency, within each group of three Elves, the badge is the only item type carried by all three Elves. That is, if a group's badge is item type B, then all three Elves will have item type B somewhere in their rucksack, and at most two of the Elves will be carrying any other item type.
@@ -108,7 +108,7 @@ Find the item type that corresponds to the badges of each three-Elf group. What 
 Your puzzle answer was 2444.
 
 
---- Day 4: Camp Cleanup ---
+### --- Day 4: Camp Cleanup ---
 Space needs to be cleared before the last supplies can be unloaded from the ships, and so several Elves have been assigned the job of cleaning up sections of the camp. Every section has a unique ID number, and each Elf is assigned a range of section IDs.
 
 However, as some of the Elves compare their section assignments with each other, they've noticed that many of the assignments overlap. To try to quickly find overlaps and reduce duplicated effort, the Elves pair up and make a big list of the section assignments for each pair (your puzzle input).
@@ -151,7 +151,7 @@ In how many assignment pairs does one range fully contain the other?
 
 Your puzzle answer was 602.
 
---- Part Two ---
+#### --- Part Two ---
 It seems like there is still quite a bit of duplicate work planned. Instead, the Elves would like to know the number of pairs that overlap at all.
 
 In the above example, the first two pairs (2-4,6-8 and 2-3,4-5) don't overlap, while the remaining four pairs (5-7,7-9, 2-8,3-7, 6-6,4-6, and 2-6,4-8) do overlap:
